@@ -41,8 +41,9 @@ def main():
     data = fetch_data()
 
     # Display data in a Streamlit table
-    # st.table(data)
-    st.write(data.head(15000))
+    
+    st.write(data.head(15))
+    st.table(data.head(100))
 
 if __name__ == "__main__":
     main()
