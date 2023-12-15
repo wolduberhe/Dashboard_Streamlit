@@ -33,17 +33,24 @@ def fetch_data():
         if connection:
             connection.close()
 
-# Main Streamlit app
+
+
+
+
 def main():
     st.title("PostgreSQL and Streamlit Example")
 
     # Fetch data from PostgreSQL as a Pandas DataFrame
-    data = fetch_data()
+    df= fetch_data()
 
     # Display data in a Streamlit table
     
-    st.write(data.head(15))
-    st.table(data.head(100))
+    st.write(df.head())
+    st.write(df.describe())
+    # st.table(data.head(10))
+    st.write(df.isnull().sum().sum())
+    st.write(df.isnull().sum())
+    
 
 if __name__ == "__main__":
     main()
