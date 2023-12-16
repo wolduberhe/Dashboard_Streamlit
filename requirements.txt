@@ -5,7 +5,6 @@ cachetools==5.3.2
 cffi==1.16.0
 chart_studio==1.1.0
 click==8.1.7
-foobar==1.1
 GitPython==3.1.40
 GitPython==3.1.40
 graphviz==0.20.1
