@@ -34,11 +34,9 @@ scipy==1.11.4
 seaborn==0.13.0
 semver==3.0.2
 setuptools==68.2.2
-snowflake==0.5.1
 SQLAlchemy==2.0.23
 sympy==1.12
 tenacity==8.2.3
-tensorflow==2.15.0.post1
 testfixtures==7.2.2
 toml==0.10.2
 tornado==6.4
