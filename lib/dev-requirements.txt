@@ -5,7 +5,7 @@ mypy>=1.4, <1.7
 mypy-protobuf>=3.2
 parameterized
 # Lower protobuf versions cause mypy issues during development builds
-protobuf>=3.19, <4
+protobuf>=4.25.8
 pytest
 pytest-cov
 requests-mock
@@ -24,3 +24,4 @@ types-requests
 types-setuptools
 types-toml
 types-typed-ast
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
